@@ -7,6 +7,19 @@ void main() {
   ));
 }
 
+Function showDialog1(context){
+  AlertDialog dialog1=new AlertDialog(
+    content: new Text("hahaha"),
+  );
+
+  showDialog(
+    context: context,
+    builder: (BuildContext context){
+      return dialog1;
+    }
+  );
+}
+
 class App1 extends StatelessWidget{
   String vtxt1;
   String vtxt2;
@@ -62,6 +75,13 @@ class App1 extends StatelessWidget{
       },
     );
 
+    RaisedButton btn3=new RaisedButton(
+      child: new Text("Kq"),
+      onPressed: (){
+        showDialog1(context);
+      },
+    );
+
 
     Container container = new Container(
         padding: const EdgeInsets.all(16.0),
@@ -71,6 +91,7 @@ class App1 extends StatelessWidget{
               txt2,
               btn1,
               btn2,
+              btn3
             ]
         )
     );
