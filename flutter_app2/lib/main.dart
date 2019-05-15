@@ -10,6 +10,9 @@ void main() {
 class App1 extends StatelessWidget{
   String vtxt1;
   String vtxt2;
+  FocusNode ftxt1=new FocusNode();
+  FocusNode ftxt2=new FocusNode();
+
    //Tao giao dien nguoi dung
   @override
   Widget build(BuildContext context) {
@@ -26,6 +29,7 @@ class App1 extends StatelessWidget{
           vtxt1="";
         }
       },
+      focusNode: ftxt1,
     );
 
     TextField txt2=new TextField(
@@ -40,10 +44,23 @@ class App1 extends StatelessWidget{
           vtxt2="";
         }
       },
+      focusNode: ftxt2,
       keyboardType: TextInputType.numberWithOptions(),
     );
 
+    RaisedButton btn1=new RaisedButton(
+      child: new Text("Go to txt2"),
+      onPressed: (){
+        FocusScope.of(context).requestFocus(ftxt2);
+      },
+    );
 
+    RaisedButton btn2=new RaisedButton(
+      child: new Text("Go to txt1"),
+      onPressed: (){
+        FocusScope.of(context).requestFocus(ftxt1);
+      },
+    );
 
 
     Container container = new Container(
@@ -51,7 +68,9 @@ class App1 extends StatelessWidget{
         child: new Column(
             children: [
               txt1,
-              txt2
+              txt2,
+              btn1,
+              btn2,
             ]
         )
     );
