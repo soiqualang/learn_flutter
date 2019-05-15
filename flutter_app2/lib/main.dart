@@ -7,9 +7,11 @@ void main() {
   ));
 }
 
-Function showDialog1(context){
+Function showDialog1(context,vtxt1,vtxt2){
+  Text ditxt=new Text("Tên bạn là: $vtxt1 \n"
+                      "Tuổi bạn là: $vtxt2");
   AlertDialog dialog1=new AlertDialog(
-    content: new Text("hahaha"),
+    content: ditxt,
   );
 
   showDialog(
@@ -78,7 +80,7 @@ class App1 extends StatelessWidget{
     RaisedButton btn3=new RaisedButton(
       child: new Text("Kq"),
       onPressed: (){
-        showDialog1(context);
+        showDialog1(context,vtxt1,vtxt2);
       },
     );
 
