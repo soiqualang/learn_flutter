@@ -81,6 +81,68 @@ class _MyHomePageState extends State<MyHomePage> {
       },
       itemCount: NewsHelper.articleCount,
     );
+
+    Drawer menu1=new Drawer(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Container(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(32.0,64.0,32.0,16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Icon(Icons.account_circle,size: 90,),
+                  Padding(
+                    padding: const EdgeInsets.all(8),
+                    child: Text("Soiqualang",style: TextStyle(fontSize: 20),),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8),
+                    child: Text("See profile",style: TextStyle(color: Colors.black45),),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Expanded(
+            child: Container(
+              color: Colors.black12,
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(40.0,16.0,40.0,40.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Text("Home",style: TextStyle(fontSize: 18),),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Text("Audio",style: TextStyle(fontSize: 18),),
+                    ),
+                    Divider(),
+                    Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Text("Bookmarks",style: TextStyle(fontSize: 18),),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Text("Interests",style: TextStyle(fontSize: 18),),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Text("New Story",style: TextStyle(fontSize: 18),),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title,style: TextStyle(fontWeight: FontWeight.w400),),
@@ -98,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: lst1,
       //Them menu
-      drawer: Drawer(),
+      drawer: menu1,
     );
   }
 }
