@@ -40,7 +40,7 @@ Make list view form list
 
 Make list view form list + layout listview
 
-![main_listview_layout.dart](./img/Screenshot_1557980043.png){width: 300px;}
+<img src="./img/Screenshot_1557980043.png" width="300px">
 
 https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
 
