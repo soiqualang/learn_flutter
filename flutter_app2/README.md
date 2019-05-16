@@ -2,6 +2,30 @@
 
 flutter_app2
 
+***
+
+**Truyền biến trong Dark**
+```dark
+Text ditxt=new Text("Tên bạn là: $vtxt1 \n"
+                      "Tuổi bạn là: $vtxt2");
+```
+
+## main_template1.dart
+
+Tạo một app rỗng
+
+## main_form.dart
+
+Tạo textbox và button
+
+## main_function.dart
+
+Tạo function và gọi sự kiện `nhấn nút`
+
+## main_style_txt.dart
+
+Style textbox
+
 https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
 
 ## Getting Started
