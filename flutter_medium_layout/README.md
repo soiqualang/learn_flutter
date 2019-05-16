@@ -19,6 +19,10 @@ flutter:
    - assets/
 ```
 
+<img src="./assets/screenshot/Screenshot_1557993949.png" width="300px">
+
+
+<img src="./assets/screenshot/Screenshot_1557993951.png" width="300px">
 
 ## Preference
 
