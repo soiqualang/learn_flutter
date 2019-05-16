@@ -2,6 +2,25 @@
 
 infinite scrolling ListView
 
+**Add ex package**
+
+`pubspec.yaml`
+
+```yaml
+pubspec.yaml
+@@ -5,4 +5,5 @@
+   dependencies:
+     flutter:
+       sdk: flutter
+     cupertino_icons: ^0.1.2
++    english_words: ^3.1.0
+```
+
+`main.dart`
+```dart
+import 'package:english_words/english_words.dart';
+```
+
 <img src="./img/Screenshot_1557995099.png" width="300px">
 
 ## Getting Started
