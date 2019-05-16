@@ -2,6 +2,8 @@
 
 infinite scrolling ListView
 
+<img src="./img/Screenshot_1557995099.png" width="300px">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
