@@ -4,11 +4,13 @@ flutter_app2
 
 ***
 
-**Truyền biến trong Dark**
-```dark
+**Truyền biến trong dart**
+```dart
 Text ditxt=new Text("Tên bạn là: $vtxt1 \n"
                       "Tuổi bạn là: $vtxt2");
 ```
+
+Biến để ngoài `Widget build(BuildContext context)` sẽ không `hot reload`
 
 ## main_template1.dart
 
@@ -25,6 +27,20 @@ Tạo function và gọi sự kiện `nhấn nút`
 ## main_style_txt.dart
 
 Style textbox
+
+## main_layout.dart
+
+Layout
+
+## main_listview.dart
+
+Make list view form list
+
+## main_listview_layout.dart
+
+Make list view form list + layout listview
+
+![main_listview_layout.dart](img/Screenshot_1557980043.png)
 
 https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
 
