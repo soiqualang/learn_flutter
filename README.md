@@ -8,3 +8,9 @@ App tính tiền tip
 
 https://code.tutsplus.com/vi/tutorials/developing-an-android-app-with-flutter--cms-28270
 
+https://medium.com/@dev.n
+
+https://github.com/soiqualang/flutter-examples
+
+https://flutter.dev/docs/development/ui/widgets-intro
+
