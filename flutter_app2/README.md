@@ -16,31 +16,43 @@ Biến để ngoài `Widget build(BuildContext context)` sẽ không `hot reload
 
 Tạo một app rỗng
 
+<img src="./img/Screenshot_1557980512.png" width="300px">
+
 ## main_form.dart
 
 Tạo textbox và button
+
+<img src="./img/Screenshot_1557980587.png" width="300px">
 
 ## main_function.dart
 
 Tạo function và gọi sự kiện `nhấn nút`
 
+<img src="./img/Screenshot_1557980616.png" width="300px">
+
 ## main_style_txt.dart
 
 Style textbox
+
+<img src="./img/Screenshot_1557980642.png" width="300px">
 
 ## main_layout.dart
 
 Layout
 
+<img src="./img/Screenshot_1557980683.png" width="300px">
+
 ## main_listview.dart
 
 Make list view form list
+
+<img src="./img/Screenshot_1557980705.png" width="300px">
 
 ## main_listview_layout.dart
 
 Make list view form list + layout listview
 
-<img src="./img/Screenshot_1557980043.png" width="300px">
+<img src="./img/Screenshot_1557980725.png" width="300px">
 
 https://medium.com/flutter-community/a-deep-dive-into-flutter-textfields-f0e676aaab7a
 

@@ -76,8 +76,8 @@ class App1 extends StatelessWidget{
     );
 
     Container container = new Container(
-        padding: const EdgeInsets.all(16.0),
-        child: new Column(
+      padding: const EdgeInsets.all(16.0),
+      child: new Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Expanded(
@@ -92,7 +92,7 @@ class App1 extends StatelessWidget{
               onPressed: () {},
             ),
           ]
-        ),
+      ),
     );
 
     AppBar appBar = new AppBar(title: new Text("soiqualang"));
