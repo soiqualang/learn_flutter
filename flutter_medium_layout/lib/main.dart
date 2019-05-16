@@ -33,8 +33,14 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title,style: TextStyle(fontWeight: FontWeight.w400),),
         backgroundColor: Colors.black,
         actions: <Widget>[
-          Icon(Icons.notifications_none,color: Colors.grey,),
-          Icon(Icons.search,color: Colors.grey,),
+          Padding(
+            padding: const EdgeInsets.only(right: 20),
+            child: Icon(Icons.notifications_none,color: Colors.grey,),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: Icon(Icons.search,color: Colors.grey,),
+          )
         ],
       ),
       body: Center(
@@ -45,6 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+      //Them menu
+      drawer: Drawer(),
     );
   }
 }
