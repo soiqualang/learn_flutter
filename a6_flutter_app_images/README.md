@@ -2,6 +2,8 @@
 
 a6_flutter_app_images
 
+<img src="./img/Screenshot_1558090039.png" width="300px">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
