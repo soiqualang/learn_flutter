@@ -2,6 +2,22 @@
 
 flutter_firebase
 
+## Not finish!!!!
+
+## Config
+
+**pubspec.yaml**
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  cloud_firestore: ^0.8.2
+```
+
 https://codelabs.developers.google.com/codelabs/flutter-firebase/#4
 
 ## Getting Started

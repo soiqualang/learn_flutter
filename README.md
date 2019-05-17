@@ -1,5 +1,19 @@
 # learn_flutter
-learn dark flutter
+learn dart flutter
+
+## flutter_medium_layout
+
+Try to layout medium app with flutter
+
+## flutter_app2
+
+* Layout template
+* Layout
+* Form (textbox, button, event,..)
+* Style form
+* Function
+* Listview from list
+* Style list view
 
 ## flutter_app1
 App tính tiền tip
@@ -13,4 +27,6 @@ https://medium.com/@dev.n
 https://github.com/soiqualang/flutter-examples
 
 https://flutter.dev/docs/development/ui/widgets-intro
+
+https://flutter.dev/docs/get-started/codelab
 
