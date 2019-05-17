@@ -2,6 +2,21 @@
 
 a5_flutter_app_using_edittext
 
+```dart
+final TextEditingController txt_controller=new TextEditingController();
+```
+
+**TextField**
+```dart
+onSubmitted: (String str){
+setState(() {
+  results=results+"\n"+str;
+  txt_controller.text="";
+});
+},
+controller: txt_controller,
+```
+
 <img src="./img/Screenshot_1558083845.png" width="300px">
 
 ## Getting Started
