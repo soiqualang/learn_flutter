@@ -104,8 +104,9 @@ class bmi_calc_State extends State<bmi_calc> {
 
     Container container = new Container(
         padding: const EdgeInsets.all(16.0),
-        child: new Column(
-            children: [
+        child: new SingleChildScrollView(
+          child: new Column(
+            children: <Widget>[
               title,
               txt_weight,
               txt_height,
@@ -113,7 +114,8 @@ class bmi_calc_State extends State<bmi_calc> {
               Divider(),
               txt_kq,
               img_danhgia,
-            ]
+            ],
+          ),
         )
     );
 

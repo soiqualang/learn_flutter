@@ -37,6 +37,29 @@ Tính add thêm hình ảnh, tuy nhiên gặp lỗi tràn kích thước
 
 <img src="./img/Screenshot_1558080699.png" width="300px">
 
+**Giải quyết lỗi tràn màn hình**
+
+Thêm một `SingleChildScrollView`
+
+```dart
+Container container = new Container(
+	padding: const EdgeInsets.all(16.0),
+	child: new SingleChildScrollView(
+	  child: new Column(
+		children: <Widget>[
+		  title,
+		  txt_weight,
+		  txt_height,
+		  rbtn_calc,
+		  Divider(),
+		  txt_kq,
+		  img_danhgia,
+		],
+	  ),
+	)
+);
+```
+
 * Add `bmi_des()` function for BMI details
 * Style app
 
