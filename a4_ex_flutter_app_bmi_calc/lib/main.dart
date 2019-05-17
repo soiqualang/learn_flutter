@@ -99,6 +99,8 @@ class bmi_calc_State extends State<bmi_calc> {
       child: Text("Calculator",style: TextStyle(fontSize: 18),),
       onPressed: bmi_calc,
     );
+    //Imgae
+    Image img_danhgia=new Image.asset("assets/Phuong_phap_2_1.jpg");
 
     Container container = new Container(
         padding: const EdgeInsets.all(16.0),
@@ -110,6 +112,7 @@ class bmi_calc_State extends State<bmi_calc> {
               rbtn_calc,
               Divider(),
               txt_kq,
+              img_danhgia,
             ]
         )
     );

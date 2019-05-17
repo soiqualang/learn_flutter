@@ -16,10 +16,33 @@ Build a Stateful Widget template
 
 ### v2
 
+**Config add image**
+
+`pubspec.yaml`
+```yaml
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/
+  #  - images/a_dot_ham.jpeg
+```
+
+Tính add thêm hình ảnh, tuy nhiên gặp lỗi tràn kích thước
+
+<img src="./img/Screenshot_1558080699.png" width="300px">
+
 * Add `bmi_des()` function for BMI details
 * Style app
 
 <img src="./img/Screenshot_1558079875.png" width="300px">
+
+***
 
 ### v1
 
