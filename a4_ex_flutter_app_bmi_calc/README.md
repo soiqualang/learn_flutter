@@ -14,6 +14,13 @@ Practice make a BMI calculator
 
 Build a Stateful Widget template
 
+### v2
+
+* Add `bmi_des()` function for BMI details
+* Style app
+
+<img src="./img/Screenshot_1558079875.png" width="300px">
+
 ### v1
 
 <img src="./img/Screenshot_1558077515.png" width="300px">

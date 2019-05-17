@@ -23,20 +23,49 @@ class bmi_calc_State extends State<bmi_calc> {
   double pweight=0;
   double vbmi=0;
   String txt_res="";
+  String txt_des="";
 
   void bmi_calc(){
     setState(() {
       vbmi=pweight/(pheight*pheight);
+      bmi_des();
       txt_res="Your BMI: $vbmi";
+      txt_res=txt_res+"\n"+txt_des;
     });
+  }
+  void bmi_des(){
+    if(vbmi<=18.5){
+      txt_des="Bạn có thể trạng gầy \n"
+              + "Nguy cơ phát triển bệnh thấp";
+    }else if(vbmi>18.5 && vbmi<=24.9){
+      txt_des="Bạn có thể trạng bình thường \n"
+          + "Nguy cơ phát triển bệnh trung bình";
+    }else if(vbmi>25 && vbmi<=29.9){
+      txt_des="Bạn có thể trạng hơi béo \n"
+          + "Nguy cơ phát triển bệnh cao";
+    }else if(vbmi>30 && vbmi<=34.9){
+      txt_des="Bạn bị béo phì cấp độ 1 \n"
+          + "Nguy cơ phát triển bệnh cao";
+    }else if(vbmi>35 && vbmi<=39.9){
+      txt_des="Bạn bị béo phì cấp độ 2 \n"
+          + "Nguy cơ phát triển bệnh rất cao";
+    }else if(vbmi>40){
+      txt_des="Bạn bị béo phì cấp độ 3 \n"
+          + "Nguy cơ phát triển bệnh rất nguy hiểm";
+    }else{
+      txt_des="Sai dữ liệu!";
+    }
   }
 
   @override
   Widget build(BuildContext context) {
+    //Tile
+    Text title=new Text("BMI calculator",style: TextStyle(fontSize: 34,color: Colors.pink),);
     //text height
     TextField txt_height=new TextField(
       decoration: InputDecoration(
         labelText: "Your height (m):",
+        icon: Icon(Icons.crop_portrait)
       ),
       keyboardType: TextInputType.numberWithOptions(),
       onChanged: (v){
@@ -51,7 +80,9 @@ class bmi_calc_State extends State<bmi_calc> {
     TextField txt_weight=new TextField(
       decoration: InputDecoration(
         labelText: "Your weight (kg):",
+        icon: Icon(Icons.crop_16_9)
       ),
+      //textInputAction: TextInputAction.newline,
       keyboardType: TextInputType.numberWithOptions(),
       onChanged: (v){
         try{
@@ -73,9 +104,11 @@ class bmi_calc_State extends State<bmi_calc> {
         padding: const EdgeInsets.all(16.0),
         child: new Column(
             children: [
+              title,
               txt_weight,
               txt_height,
               rbtn_calc,
+              Divider(),
               txt_kq,
             ]
         )
