@@ -36,7 +36,7 @@ class bmi_calc_State extends State<bmi_calc> {
     //text height
     TextField txt_height=new TextField(
       decoration: InputDecoration(
-        labelText: "Your height:",
+        labelText: "Your height (m):",
       ),
       keyboardType: TextInputType.numberWithOptions(),
       onChanged: (v){
@@ -50,7 +50,7 @@ class bmi_calc_State extends State<bmi_calc> {
     //text weight
     TextField txt_weight=new TextField(
       decoration: InputDecoration(
-        labelText: "Your weight:",
+        labelText: "Your weight (kg):",
       ),
       keyboardType: TextInputType.numberWithOptions(),
       onChanged: (v){
