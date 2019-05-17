@@ -14,7 +14,25 @@ Practice make a BMI calculator
 
 Build a Stateful Widget template
 
+## Finish
+
+<img src="./img/Screenshot_1558081774.png" width="300px">
+
 ### v2
+
+**Round number**
+
+>num.round() returns an int AFAIK and there is no way to specify the number of fraction digits in double
+
+https://github.com/dart-lang/sdk/issues/8575
+
+and...
+
+```
+1.119.toStringAsFixed(2)
+
+Results in 1.12.
+```
 
 **Config add image**
 

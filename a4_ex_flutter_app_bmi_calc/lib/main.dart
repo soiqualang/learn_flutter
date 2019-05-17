@@ -24,12 +24,15 @@ class bmi_calc_State extends State<bmi_calc> {
   double vbmi=0;
   String txt_res="";
   String txt_des="";
+  String vbmi2str="";
 
   void bmi_calc(){
     setState(() {
       vbmi=pweight/(pheight*pheight);
+      //vbmi2str=vbmi.toString();
+      vbmi2str=vbmi.toStringAsFixed(2);
       bmi_des();
-      txt_res="Your BMI: $vbmi";
+      txt_res="Your BMI: $vbmi2str";
       txt_res=txt_res+"\n"+txt_des;
     });
   }
