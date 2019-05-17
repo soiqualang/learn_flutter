@@ -2,6 +2,8 @@
 
 a4_flutter_app_stateful_widget
 
+<img src="./img/Screenshot_1558068137.png" width="300px">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
