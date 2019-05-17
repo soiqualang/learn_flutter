@@ -93,6 +93,12 @@ Container container = new Container(
 
 https://news.zing.vn/5-cong-thuc-don-gian-do-chi-so-bmi-post669580.html
 
+https://api.dartlang.org/stable/2.3.0/dart-core/double/toString.html
+
+https://github.com/dart-lang/sdk/issues/8575
+
+https://code-maven.com/slides/dart-programming/logical-operators
+
 ## Images
 
 <img src="./img/thumbnail-cong-thuc-tinh-chi-so-khoi-bmi-la-gi-1553137560.jpg" width="300px">
