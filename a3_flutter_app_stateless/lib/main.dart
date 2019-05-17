@@ -28,6 +28,10 @@ class App1 extends StatelessWidget{
         new newcard(new Text("Alarm",style: txtstyle), new Icon(Icons.alarm,size: iconsize,)),
         new newcard(new Text("Airport Shuttle",style: txtstyle), new Icon(Icons.airport_shuttle,size: iconsize,)),
         new newcard(new Text("Done",style: txtstyle), new Icon(Icons.done,size: iconsize,)),
+        new newcard(new Text("Done",style: txtstyle), new Icon(Icons.done,size: iconsize,)),new newcard(new Text("Alarm",style: txtstyle), new Icon(Icons.alarm,size: iconsize,)),
+        new newcard(new Text("Done",style: txtstyle), new Icon(Icons.done,size: iconsize,)),
+        new newcard(new Text("Airport Shuttle",style: txtstyle), new Icon(Icons.airport_shuttle,size: iconsize,)),
+        new newcard(new Text("Done",style: txtstyle), new Icon(Icons.done,size: iconsize,)),
       ],
     );
     //Content
