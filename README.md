@@ -30,3 +30,6 @@ https://flutter.dev/docs/development/ui/widgets-intro
 
 https://flutter.dev/docs/get-started/codelab
 
+**http://eitguide.net/flutter-bai-8-gioi-thieu-mot-widgets-thuong-dung/**
+
+https://docs.flutter.io/flutter/material/Scaffold-class.html
